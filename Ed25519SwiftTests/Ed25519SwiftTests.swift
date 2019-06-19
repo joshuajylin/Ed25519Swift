@@ -38,13 +38,28 @@ class Ed25519SwiftTests: XCTestCase {
             return
         }
         
-        guard let result = try? Ed25519Swift.verify(signature, message, keyPair1.publicKey), result == true else {
+        guard (try? Ed25519Swift.verify(signature, message, keyPair1.publicKey)) == true else {
             XCTAssert(false, "Ed25519Swift.verify failed")
             return
         }
         
-        guard (try? Ed25519Swift.keyExchange(keyPair1.publicKey, keyPair2.privateKey)) != nil else {
+        guard (try? Ed25519Swift.verify(signature, message, keyPair2.publicKey)) == false else {
+            XCTAssert(false, "Ed25519Swift.verify failed")
+            return
+        }
+        
+        guard let secret1 = try? Ed25519Swift.keyExchange(keyPair2.publicKey, keyPair1.privateKey) else {
             XCTAssert(false, "Ed25519Swift.keyExchange failed")
+            return
+        }
+        
+        guard let secret2 = try? Ed25519Swift.keyExchange(keyPair1.publicKey, keyPair2.privateKey) else {
+            XCTAssert(false, "Ed25519Swift.keyExchange failed")
+            return
+        }
+        
+        guard secret1.elementsEqual(secret2) else {
+            XCTAssert(false, "Shared secrets are different")
             return
         }
     }
