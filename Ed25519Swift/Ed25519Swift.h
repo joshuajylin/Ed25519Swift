@@ -6,7 +6,7 @@
 //  Copyright © 2019 Joshua Lin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Ed25519Swift.
 FOUNDATION_EXPORT double Ed25519SwiftVersionNumber;

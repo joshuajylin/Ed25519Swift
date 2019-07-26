@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "425564DA22B902C40030ED2A"
-               BuildableName = "Ed25519Swift.framework"
-               BlueprintName = "Ed25519Swift"
+               BlueprintIdentifier = "4255651122B906150030ED2A"
+               BuildableName = "libed25519.a"
+               BlueprintName = "ed25519 iOS"
                ReferencedContainer = "container:Ed25519Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "425564E322B902C40030ED2A"
-               BuildableName = "Ed25519SwiftTests.xctest"
-               BlueprintName = "Ed25519SwiftTests"
-               ReferencedContainer = "container:Ed25519Swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "425564DA22B902C40030ED2A"
-            BuildableName = "Ed25519Swift.framework"
-            BlueprintName = "Ed25519Swift"
-            ReferencedContainer = "container:Ed25519Swift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "425564DA22B902C40030ED2A"
-            BuildableName = "Ed25519Swift.framework"
-            BlueprintName = "Ed25519Swift"
+            BlueprintIdentifier = "4255651122B906150030ED2A"
+            BuildableName = "libed25519.a"
+            BlueprintName = "ed25519 iOS"
             ReferencedContainer = "container:Ed25519Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "425564DA22B902C40030ED2A"
-            BuildableName = "Ed25519Swift.framework"
-            BlueprintName = "Ed25519Swift"
+            BlueprintIdentifier = "4255651122B906150030ED2A"
+            BuildableName = "libed25519.a"
+            BlueprintName = "ed25519 iOS"
             ReferencedContainer = "container:Ed25519Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

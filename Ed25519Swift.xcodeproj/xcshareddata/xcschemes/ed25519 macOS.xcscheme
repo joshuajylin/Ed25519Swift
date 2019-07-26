@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4255651122B906150030ED2A"
+               BlueprintIdentifier = "42C40A5522EAF7EF0092268E"
                BuildableName = "libed25519.a"
-               BlueprintName = "ed25519"
+               BlueprintName = "ed25519 macOS"
                ReferencedContainer = "container:Ed25519Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4255651122B906150030ED2A"
+            BlueprintIdentifier = "42C40A5522EAF7EF0092268E"
             BuildableName = "libed25519.a"
-            BlueprintName = "ed25519"
+            BlueprintName = "ed25519 macOS"
             ReferencedContainer = "container:Ed25519Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4255651122B906150030ED2A"
+            BlueprintIdentifier = "42C40A5522EAF7EF0092268E"
             BuildableName = "libed25519.a"
-            BlueprintName = "ed25519"
+            BlueprintName = "ed25519 macOS"
             ReferencedContainer = "container:Ed25519Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
